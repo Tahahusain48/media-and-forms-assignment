@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP PAGE</title>
+</head>
+<body>
+    <h1 style="text-align: center;">SIGN UP PAGE</h1>
+
+    <form action="" method="get">
+        <label for="First Name">First Name</label>
+        <input type="text" name="First Name" id="First Name" required minlength="3">
+        <br><br>
+        <label for="Last Name">Last Name</label>
+        <input type="text" name="Last Name" id="Last Name" required minlength="3">
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" required>
+        <br><br>
+        <label for="password">Confirm Password</label>
+        <input type="password" required>
+        <br><br>
+        <label for="Age">Age</label>
+        <input type="number" name="Age" id="Age" required min="0" max="150" >
+        <br><br> 
+        <label for="Gender">Gender</label>
+        <select name="Gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Others</option>
+        </select>
+        <br><br>
+        <label for="terms_conditions">I agree to the Terms and Conditions:</label>
+        <input type="checkbox" name="" id="" required>
+        <br><br>
+        <input type="submit" value="Sign up">
+    </form>
+</body>
+</html>
